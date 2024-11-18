@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\AssetsSnakeEA\Body.png" />
+    <None Remove="Assets\AssetsSnakeEA\DeadBody.png" />
+    <None Remove="Assets\AssetsSnakeEA\DeadHead.png" />
+    <None Remove="Assets\AssetsSnakeEA\DroidSansMono.ttf" />
+    <None Remove="Assets\AssetsSnakeEA\Empty.png" />
+    <None Remove="Assets\AssetsSnakeEA\Food.png" />
+    <None Remove="Assets\AssetsSnakeEA\Head.png" />
+    <None Remove="Assets\AssetsSnakeEA\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\AssetsSnakeEA\Body.png" />
+    <Resource Include="Assets\AssetsSnakeEA\DeadBody.png" />
+    <Resource Include="Assets\AssetsSnakeEA\DeadHead.png" />
+    <Resource Include="Assets\AssetsSnakeEA\DroidSansMono.ttf" />
+    <Resource Include="Assets\AssetsSnakeEA\Empty.png" />
+    <Resource Include="Assets\AssetsSnakeEA\Food.png" />
+    <Resource Include="Assets\AssetsSnakeEA\Head.png" />
+    <Resource Include="Assets\AssetsSnakeEA\icon.ico" />
+  </ItemGroup>
+
+</Project>
